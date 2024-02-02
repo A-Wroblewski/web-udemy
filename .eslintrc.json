@@ -8,5 +8,7 @@
         "ecmaVersion": "latest"
     },
     "rules": {
+        "no-constant-condition": "off",
+        "semi": "error"
     }
 }

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <script>
+            let userNumber = parseInt(prompt('numero'));
+
+            for (let i=1; i<=1000; i++) {
+                let p = document.createElement('p');
+
+                let expression = `${userNumber}x${i} = ${i * userNumber}`;
+
+                p.textContent = expression;
+
+                document.body.appendChild(p);
+
+                if (i % 10 == 0) {
+                    document.write('<hr>');
+                }
+            }
+        </script>
+    </body>
+</html>

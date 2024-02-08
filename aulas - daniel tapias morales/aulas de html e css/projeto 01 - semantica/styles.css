@@ -1,0 +1,79 @@
+body {
+    background-color: #cacaca;
+    font-family: sans-serif;
+    margin: auto;
+    width: 100em;
+}
+
+.white-color {
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 1em;
+}
+
+li {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: .1em solid white;
+    margin-left: .5em;
+    padding: 1em;
+}
+
+header {
+    background-image: url('imagens/bg-3.jpg');
+    background-position: right;
+    height: 60em;
+}
+
+header h1 {
+    font-size: 4em;
+    margin-top: 2em;
+}
+
+header p {
+    margin-top: 10em;
+}
+
+header h1, header p {
+    text-align: center;
+}
+
+p span {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: .2em solid white;
+    padding: 1em;
+}
+
+article section {
+    background-color: white;
+    margin: 1em;
+    padding: 1em;
+}
+
+article section h3 {
+    background-color: #cacaca;
+    border-bottom: .2em solid rgb(102, 102, 102);
+    padding: 1em;
+}
+
+article section a {
+    background-color: #cacaca;
+    color: blue;
+    padding: .75em;
+    text-decoration: underline;
+}
+
+article section p {
+    margin-bottom: 1.5em;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1.5em;
+    text-align: center;
+}

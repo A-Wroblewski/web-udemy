@@ -20,12 +20,12 @@ body {
 .almost-big-title {
     border: dashed #5eff00;
     border-radius: 1em;
-    padding: .3em;
+    padding: 0.3em;
     text-align: center;
 }
 
 .almost-big-title__paragraph {
-    opacity: .3;
+    opacity: 0.3;
     text-align: right;
     text-decoration: line-through;
 }

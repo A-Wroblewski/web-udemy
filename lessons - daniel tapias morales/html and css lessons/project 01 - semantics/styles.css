@@ -19,8 +19,8 @@ ul {
 
 li {
     background-color: rgba(0, 0, 0, 0.5);
-    border: .1em solid white;
-    margin-left: .5em;
+    border: 0.1em solid white;
+    margin-left: 0.5em;
     padding: 1em;
 }
 
@@ -39,13 +39,14 @@ header p {
     margin-top: 10em;
 }
 
-header h1, header p {
+header h1,
+header p {
     text-align: center;
 }
 
 p span {
     background-color: rgba(0, 0, 0, 0.5);
-    border-bottom: .2em solid white;
+    border-bottom: 0.2em solid white;
     padding: 1em;
 }
 
@@ -57,14 +58,14 @@ article section {
 
 article section h3 {
     background-color: #cacaca;
-    border-bottom: .2em solid rgb(102, 102, 102);
+    border-bottom: 0.2em solid rgb(102, 102, 102);
     padding: 1em;
 }
 
 article section a {
     background-color: #cacaca;
     color: blue;
-    padding: .75em;
+    padding: 0.75em;
     text-decoration: underline;
 }
 
